@@ -1,0 +1,23 @@
+name: cmbx21cm
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - numpy
+    - matplotlib
+    - jupyter
+    - scipy
+    - coveralls
+    - pytest
+    - pytest-cov
+    - pyyaml
+    - emcee
+    - camb
+    - mpi4py
+    - schwimmbad
+    - pip
+    - pip:
+        - mcfit
+        - pyfftw
+        - powerbox
+        - git+https://github.com/mirochaj/micro21cm
