@@ -5,11 +5,11 @@ channels:
 dependencies:
   - python>=3.9
   - astropy>=5.0.4
-  - astropy-healpix
-  - astroquery>=0.4.4
   - coverage
   - cython>=0.23
   - h5py>=3.0
+  - healpy
+  - ipykernel
   - numpy>=1.18
   - pip
   - pre-commit
@@ -29,3 +29,5 @@ dependencies:
     - numexpr
     - git+https://github.com/HERA-Team/uvtools.git
     - git+https://github.com/HERA-Team/hera_cal.git
+    - git+https://github.com/telegraphic/PyGSM.git
+    - git+https://github.com/telegraphic/pygdsm.git
