@@ -29,4 +29,3 @@ dependencies:
     - numexpr
     - git+https://github.com/HERA-Team/uvtools.git
     - git+https://github.com/HERA-Team/hera_cal.git
-    - -e git+https://github.com/HERA-Team/direct_optimal_mapping.git
