@@ -26,6 +26,7 @@ dependencies:
   - sphinx
   - pyuvdata
   - pip:
+    - geos
     - numexpr
     - git+https://github.com/HERA-Team/uvtools.git
     - git+https://github.com/HERA-Team/hera_cal.git
