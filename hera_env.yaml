@@ -12,6 +12,7 @@ dependencies:
   - ipykernel
   - line_profiler
   - numpy>=1.18
+  - notebook  
   - pandas
   - pip
   - pre-commit
