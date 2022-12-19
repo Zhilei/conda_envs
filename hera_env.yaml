@@ -12,7 +12,10 @@ dependencies:
   - ipykernel
   - matplotlib
   - notebook
+  - line_profiler
   - numpy>=1.18
+  - notebook  
+  - pandas
   - pip
   - pre-commit
   - pyerfa>=2.0
@@ -30,9 +33,11 @@ dependencies:
   - pip:
     - geos
     - numexpr
+    - finufft
     - git+https://github.com/HERA-Team/uvtools.git
     - git+https://github.com/HERA-Team/hera_cal.git
     - git+https://github.com/telegraphic/PyGSM.git
     - git+https://github.com/telegraphic/pygdsm.git
+    - git+https://github.com/HERA-Team/hera_pspec
     - git+https://github.com/HERA-Team/hera_filters.git
     - git+https://github.com/HERA-Team/hera_pspec.git
