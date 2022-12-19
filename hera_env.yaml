@@ -10,6 +10,8 @@ dependencies:
   - h5py>=3.0
   - healpy
   - ipykernel
+  - matplotlib
+  - notebook
   - numpy>=1.18
   - pip
   - pre-commit
@@ -20,11 +22,11 @@ dependencies:
   - pytest-cov
   - pytest-xdist
   - python-casacore>=3.1.0
+  - pyuvdata
   - pyyaml
   - scipy
   - setuptools_scm
   - sphinx
-  - pyuvdata
   - pip:
     - geos
     - numexpr
@@ -33,3 +35,4 @@ dependencies:
     - git+https://github.com/telegraphic/PyGSM.git
     - git+https://github.com/telegraphic/pygdsm.git
     - git+https://github.com/HERA-Team/hera_filters.git
+    - git+https://github.com/HERA-Team/hera_pspec.git
