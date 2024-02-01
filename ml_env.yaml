@@ -1,0 +1,37 @@
+name: ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - coverage
+  - cython
+  - h5py
+  - ipykernel
+  - ipympl
+  - jax
+  - matplotlib
+  - notebook
+  - line_profiler
+  - scikit-learn
+  - numpy
+  - nodejs
+  - notebook
+  - pandas
+  - pip
+  - pyarrow
+  - pypandoc
+  - pytest
+  - pytest-cases
+  - pytest-cov
+  - pytest-xdist
+  - pyyaml
+  - scipy
+  - seaborn
+  - setuptools_scm
+  - transformers
+  - tensorflow[and-cuda]
+  - pip:
+    - keras
+    - keras-nlp
+    - langdetect
