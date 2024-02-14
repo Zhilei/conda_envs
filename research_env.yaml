@@ -1,0 +1,44 @@
+name: research
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - coverage
+  - cython
+  - h5py
+  - ipykernel
+  - ipympl
+  - jax
+  - matplotlib
+  - line_profiler
+  - scikit-learn
+  - nltk
+  - np_utils
+  - numpy
+  - nodejs
+  - notebook
+  - pandas
+  - pip
+  - plotly
+  - pyarrow
+  - pypandoc
+  - pytables
+  - pytest
+  - pytest-cases
+  - pytest-cov
+  - pytest-xdist
+  - pyyaml
+  - scipy
+  - seaborn
+  - setuptools_scm
+  - tables
+  - tqdm
+  - transformers
+  - tensorflow
+  - pip:
+    - keras
+    - keras-nlp
+    - langdetect
+    - chinese-converter
+    - torchsummary
